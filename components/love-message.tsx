@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react"
 
 const messages = [
-  "Eres la razon de mi sonrisa",
-  "Cada dia contigo es una aventura",
-  "Mi corazon late mas fuerte por ti",
+  "Mi alma es tuya",
+  "Cada dia te amo mas",
+  "Eres el amor de mi vida",
+  "Cada momento contigo es un tesoro",
   "Eres mi persona favorita en el mundo",
   "Contigo todo es mas bonito",
 ]

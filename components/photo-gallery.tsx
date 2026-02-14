@@ -4,34 +4,44 @@ import Image from "next/image"
 
 const photos = [
   {
-    src: "/images/valentine-couple.jpg",
-    alt: "Pareja romantica",
-    caption: "Juntos es mejor",
+    src: "/images/foto-beso-noche.jpg",
+    alt: "Nosotros juntos",
+    caption: "Mi alma es tuya",
   },
   {
-    src: "/images/valentine-hearts.jpg",
-    alt: "Corazones y rosas",
-    caption: "Mi corazon es tuyo",
+    src: "/images/foto-abrazo-tierno.jpg",
+    alt: "Nuestro abrazo",
+    caption: "Cada dia te amo mas",
   },
   {
-    src: "/images/valentine-teddy.jpg",
-    alt: "Osito de peluche",
-    caption: "Eres mi persona favorita",
+    src: "/images/foto-selfie-juntos.jpg",
+    alt: "Selfie juntos",
+    caption: "Eres el amor de mi vida",
   },
   {
-    src: "/images/valentine-letter.jpg",
-    alt: "Carta de amor",
-    caption: "Cada dia te quiero mas",
+    src: "/images/foto-cafecito.jpg",
+    alt: "Nuestro cafecito juntos",
+    caption: "Cada momento contigo es un tesoro",
+  },
+  {
+    src: "/images/foto-beso-risa.jpg",
+    alt: "Beso y risas",
+    caption: "Eres la razon de mi sonrisa",
+  },
+  {
+    src: "/images/foto-besito-corazon.jpg",
+    alt: "Nuestro besito",
+    caption: "Contigo todo es mas bonito",
   },
 ]
 
 export function PhotoGallery() {
   return (
-    <section className="w-full max-w-4xl mx-auto px-4">
+    <section className="w-full max-w-6xl mx-auto px-4">
       <h2 className="font-serif text-4xl md:text-5xl text-center text-primary mb-10 animate-fade-in-up text-balance">
         Momentos que atesoro contigo
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {photos.map((photo, index) => (
           <div
             key={photo.src}
